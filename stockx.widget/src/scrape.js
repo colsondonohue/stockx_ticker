@@ -16,7 +16,9 @@ phantom.create()
       return Promise.reject('Unable to access network');
     }
     else {
-      return _page.evaluate(() => document.querySelector('.ticker').outerHTML);
+      return _page.evaluate(function() {
+        return document.querySelector('.ticker').outerHTML;
+      });
     }
   })
   .then(content => {
