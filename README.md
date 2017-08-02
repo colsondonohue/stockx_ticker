@@ -20,5 +20,5 @@ Next, you'll need to have Node.js and npm installed. If you don't already,
 ### So now I'm good to go?
 
 Probably. You may need to change the `command` line in `index.coffee` if the
-path to you Node.js installation differs from my own. You can also reduce
+path to your Node.js installation differs from my own. You can also reduce
 the `refreshFrequency` if you crave more up to the minute sneaker prices.
